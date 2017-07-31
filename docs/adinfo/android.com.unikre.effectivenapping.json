@@ -3,26 +3,15 @@
   },
   "screens": [
     {
-      "name": "ActChooseNapType",
-      "banners": [
-        {
-          "position": "bottom",
-          "enable": true,
-          "network": "startapp",
+      "name": "ActLaunch",
+      "banner": {
+        "position": "bottom",
+        "network": {
+          "name": "startapp",
           "id1": "108187207",
           "id2": "211063237"
         }
-      ],
-      "intersDistanceSeconds": 60,
-      "inters": [
-        {
-          "type": "onExit",
-          "enable": true,
-          "network": "startapp",
-          "id1": "108187207",
-          "id2": "211063237"
-        }
-      ]
+      }
     }
   ]
 }
