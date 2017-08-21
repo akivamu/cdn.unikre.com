@@ -5,7 +5,7 @@
     {
       "name": "AndroidLauncher",
       "interstitial": {
-        "distanceSeconds": 120,
+        "distanceSeconds": 180,
         "types": {
           "onStart": {
             "useOnlyPreferNetwork": true,
