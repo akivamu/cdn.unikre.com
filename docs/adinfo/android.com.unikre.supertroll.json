@@ -8,13 +8,9 @@
         "distanceSeconds": 180,
         "types": {
           "onStart": {
-            "useOnlyPreferNetwork": true,
             "preferNetwork": "chartboost"
           },
           "onDemand": {
-            "preferNetwork": "startapp"
-          },
-          "onExit": {
             "preferNetwork": "startapp"
           }
         },

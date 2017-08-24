@@ -17,7 +17,7 @@
       "inters": [
         {
           "type": "onExit",
-          "enable": true,
+          "enable": false,
           "network": "startapp",
           "id1": "108187207",
           "id2": "206534049"
