@@ -1,0 +1,36 @@
+{
+  "settings": {
+  },
+  "screens": [
+    {
+      "name": "AndroidLauncher",
+      "interstitial": {
+        "distanceSeconds": 180,
+        "types": {
+          "onStart": {
+            "useOnlyPreferNetwork": true,
+            "preferNetwork": "chartboost"
+          },
+          "onDemand": {
+            "preferNetwork": "startapp"
+          },
+          "onExit": {
+            "preferNetwork": "startapp"
+          }
+        },
+        "networks": [
+          {
+            "name": "chartboost",
+            "id1": "550990f90d602578a8f7710e",
+            "id2": "19775a6ed0558729ed538ad5ef845478119354a2"
+          },
+          {
+            "name": "startapp",
+            "id1": "108187207",
+            "id2": "201243220"
+          }
+        ]
+      }
+    }
+  ]
+}
